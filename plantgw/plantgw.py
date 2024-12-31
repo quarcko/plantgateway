@@ -40,10 +40,10 @@ class MQTTAttributes(Enum):
 UNIT_OF_MEASUREMENT = {
     MQTTAttributes.BATTERY:      '%',
     MQTTAttributes.TEMPERATURE:  '°C',
-    MQTTAttributes.BRIGHTNESS:   'lux',
+    MQTTAttributes.BRIGHTNESS:   'lx',
     MQTTAttributes.MOISTURE:     '%',
     MQTTAttributes.CONDUCTIVITY: 'µS/cm',
-    MQTTAttributes.TIMESTAMP:     's',
+    MQTTAttributes.TIMESTAMP:    '',
 }
 
 
